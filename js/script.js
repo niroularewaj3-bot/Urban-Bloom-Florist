@@ -50,7 +50,7 @@ const formStatus = document.querySelector('#form-status');
 if (enquiryForm && formStatus) {
   enquiryForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    formStatus.textContent = 'Thanks for your enquiry. This demo form does not send messages; please contact us by phone or email.';
+    formStatus.textContent = 'Thanks for sharing your thoughts with me. This demo form does not send messages yet; please call or email me so I can help with your flowers.';
     enquiryForm.reset();
   });
 }
